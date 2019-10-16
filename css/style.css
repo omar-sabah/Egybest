@@ -1,0 +1,223 @@
+body{
+  font-family: Arial,Tahoma,sans-serif;
+  background-color: #ECF0F0;
+  margin: 0;
+  padding: 0;
+  height: 2500px;
+}
+.container{
+  width: 1300px;
+  margin: auto;
+  overflow: hidden;
+}
+/* Start Header */
+.header{
+  position: fixed;
+  width: 100%;
+  background-color:#F9F9F9;
+  height:65px;
+  margin: 0 ;
+  overflow: hidden;
+  box-shadow: 1px 0 2px 1px #ddd;
+}
+.header button{
+  float: left;
+  margin-right: 80px;
+  margin-top:15px;
+  background:none;
+  font-size: 16px;
+  padding: 10px 6px ;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  font-weight: bold;
+
+}
+.header .login{
+  margin-left: 200px;
+  background-color: #1495B7;
+  color: #FFF;
+  border: none;
+  }
+  .header .login:hover{
+    cursor: pointer;
+    background-color: #00a1cb;
+  }
+
+.header .singnup{
+  background-color: #10c448;;
+  color: #FFF;
+  border: none;
+
+}
+.header .singnup:hover{
+  cursor: pointer;
+  background-color: #10bf46;
+}
+.header input{
+  float: left;
+  margin:18px 0px 0px 40px;
+  text-align: right;
+  font-size: 15px;
+  padding: 7px;
+  width: 650px;
+  border-radius: 5px;
+  border:1px solid #bbb;
+  /* padding: 6px 250px 6px 230px ; */
+
+}
+.header img{
+  float: right;
+  margin:20px 150px 0px 0px ;
+
+}
+/*End Header */
+/*Start left side*/
+.leftside{
+  margin-top: 75px;
+  float: left;
+  width: 23%;
+  text-align: center;
+  font-size: 18px;
+
+}
+.leftside .flowus {
+  background-color: #FFF;
+  padding: 15px;
+  border-bottom: 1px solid #DDD;
+  border-radius: 4px 4px 0 0;
+  box-shadow: 0 1px 2px 1px #ddd;
+}
+.leftside .warn {
+  background-color: #FFF;
+  color: red;
+  padding: 15px;
+  border-radius:0 0 4px 4px ;
+  margin-bottom: 15px;
+  box-shadow: 0 1px 2px 1px #ddd;
+}
+.leftside .movitype{
+  height: 40px;
+  overflow: hidden;
+}
+.leftside .movitype > a{
+  float: left;
+  width: 48%;
+  text-decoration: none;
+  background-color: #FFF;
+  color:#FF0000;
+  padding: 5px 0 5px 0;
+  border-radius: 5px;
+}
+.leftside .movitype .ls1 {
+margin-right: 10px;
+}
+.leftside .movitype a:hover{
+  background-color: #FF0000;
+  color:#FFF;
+  cursor: pointer;
+}
+/*End left side*/
+/*Start Main*/
+.main{
+  margin-top: 75px;
+  margin-left: 8px;
+  margin-right: 8px;
+  float: left;
+  width: 63%;
+  overflow: hidden;
+}
+.main .notefication{
+  background-color: #FFE6E6;
+  overflow: hidden;
+  border: 1px solid #990000;
+  border-radius: 5px;
+}
+.main .notefication p{
+color: #990000;
+font-weight: bold;
+font-size: 17px;
+text-align: right;
+line-height: 1.8;
+padding: 5px 10px 5px 5px;
+}
+.main .notefication span{
+  padding-right: 240px;
+}
+
+.main .title_view{
+  background-color: #FFF;
+  margin-top: 10px;
+  padding: 12px;
+  overflow: hidden;
+  border-radius:4px 4px 0 0;
+  margin-bottom: 1px;
+}
+.main .title_view strong{
+  float: right;
+  font-size: 17px;
+}
+.main .title_view a{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+.main .title_view a:hover{
+  color: #FF0000;
+}
+.main .view{
+  overflow: hidden;
+  background-color: #FFF;
+  padding: 15px 5px 5px 5px;
+  height: 300px;
+}
+.main .view > a{
+  float: left;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+  /* margin-righ: 5px; */
+  /* padding: 10px; */
+  width: 200px;
+  height: 300px;
+}
+.main .view img{
+width: 85%;
+height: 80%;
+}
+/*End Main*/
+/*Start rightside*/
+.rightside{
+  margin-top: 75px;
+  float: left;
+  width: 12%;
+}
+.rightside .egy{
+  background-color: #FFF;
+  padding:10px;
+  text-align: right;
+  border-bottom: 3px solid #FF0000;
+  border-radius:4px 4px 0 0;
+}
+.rightside .egy a{
+  text-decoration: none;
+  color: #FF0000;
+  font-weight: bold;
+  font-size: 17px;
+}
+.rightside .egy1{
+  background-color: #FFF;
+  padding:10px;
+  text-align: right;
+  margin-bottom: 1px;
+}
+.rightside .egy1 a{
+  text-decoration: none;
+  color: #0066CC;
+  font-weight: bold;
+  font-size: 17px;
+}
+.rightside .egy1 a:hover{
+  color: #FF0000;
+}
+/*End rightside*/
